@@ -1,0 +1,53 @@
+.delete{
+    background-image: url('../../../images/delete-icon.png');
+    border: none;
+}
+.taskList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.taskList *{
+    margin-bottom: 0.5rem;
+}
+
+.buttonsDiv{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 7rem;
+}
+.buttonsDiv *{
+    width: 2rem;
+    height: 2rem;
+}
+
+.checkbox{
+    border-radius: 100%;
+    position: relative;
+    border: 2px solid var(--light-green);
+}
+
+
+.checkbox:checked{
+    background-image: url('../../../images/checkmark-icon.png');
+    background-size: 0.7rem;
+    background-color: var(--light-green);
+}
+
+
+.taskContainer{
+    width: 90% ;
+    display: inline-flex;
+    font-family: var(--inter-font);
+}
+
+.task{
+    font-size: 1.8rem;
+    font-weight: var(--medium);
+}
+
+.date{
+    font-size: 1.4rem;
+}

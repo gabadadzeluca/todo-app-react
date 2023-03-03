@@ -1,0 +1,23 @@
+.inputContainer{
+    display: inline-flex;
+    height: 5rem;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+.inputContainer * {
+    border-radius: 0.5rem;
+}
+.noteInput{
+    background: var(--gray);
+    width: 60%;
+    padding: 0 3rem;
+}
+.addTaskBtn{
+    border: none;
+    background-color: var(--light-green);
+    background-image: url('../../../images/plus-icon.png');
+    background-size: auto;
+    border-radius: 1rem;
+    width: 20%;
+    height: inherit;
+}

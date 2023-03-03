@@ -1,0 +1,28 @@
+.header{
+    font-family: var(--russo-font);
+    color: #FFFFFF;
+    font-weight: var(--regular);
+    background-image:url('../../../images/bg.png');
+    min-height: 20.2rem;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.dateAndTimeDiv{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    text-align: right;
+    margin-right: 2.8rem;
+}
+
+.time{
+    font-size: 4.8rem;
+}
+.date{
+    font-size: 1.8rem;
+}
